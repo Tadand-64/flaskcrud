@@ -1,5 +1,7 @@
 from flask import Flask
 
+MYSQL_HOST = 'mysql'
+
 # Application initializations
 app = Flask(__name__)
 
